@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-    bucket = "infra-statefile-primuslearning"
+    bucket = "terraform-jenkins-agentz"
     key    = "terraform.tfvars"
     region = "REGION"
   }
